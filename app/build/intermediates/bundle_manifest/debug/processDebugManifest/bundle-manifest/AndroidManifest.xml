@@ -22,16 +22,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.mikhailhathey.travelmantics.ListActivity" >
+        <activity
+            android:name="com.mikhailhathey.travelmantics.ListActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mikhailhathey.travelmantics.DealActivity" >
+        <activity
+            android:name="com.mikhailhathey.travelmantics.DealActivity"
+            android:screenOrientation="portrait" >
         </activity>
 
         <meta-data
@@ -220,10 +223,6 @@
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.mikhailhathey.travelmantics.lifecycle-process"
             android:exported="false"
-            android:multiprocess="true" />
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.mikhailhathey.travelmantics.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

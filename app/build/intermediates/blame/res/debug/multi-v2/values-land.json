@@ -4,7 +4,7 @@
             "outputFile": "/Users/mikhailhathey/AndroidStudioProjects/Travelmantics/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/mikhailhathey/.gradle/caches/transforms-2/files-2.1/2d393fb9654c9df93ed0124659cdbdef/res/values-land/values-land.xml",
+                    "source": "/Users/mikhailhathey/.gradle/caches/transforms-2/files-2.1/8a5159daf977cd417f0a4d6db85ff770/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
